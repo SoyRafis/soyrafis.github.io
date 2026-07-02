@@ -22,136 +22,282 @@
       src="https://kit.fontawesome.com/08fdbbf94e.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/home.css"/>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+></script>
   </head>
   <body>
     <!-- start navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img
-            src="/assets/img/logo-transparente120x48.png"
-            class="img-fluid"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
-            <li class="nav-item">
-              <a class="nav-link" href="./assets/portafolio.html">Projects</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<nav class="navbar navbar-expand-lg site-navbar fixed-top">
+  <div class="container">
+    <a class="navbar-brand site-logo" href="/index.html">
+      <img
+        src="/assets/img/logo-transparente120x48.png"
+        alt="SoyRafis logo"
+        class="img-fluid"
+      />
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/assets/work.html">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Risk Library</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-cta" href="https://www.linkedin.com/in/rafaelvalerob/" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <!-- end navbar -->
     <!-- start header -->
-    <header id="Hero-Section" class="text-light text-center py-5 mt-5">
-      <div class="container">
-        <div class="ms-auto col-12 col-md-7">
-          <h1 class="display-1 fw-bold my-4">
-            Rafael Valero <br />
-            Public Accountant & Developer
-          </h1>
-          <p class="my-5">
-            Accountant from the Andrés Bello Catholic University, in
-            Caracas-Venezuela, with 13 years of experience in Consulting
-            companies. Professional with knowledge in risk matrices, risk
-            identification and controls, process walkthrough, Coso 2013
-            regulations, Sarbanes-Oxley law (SOX404) and international
-            accounting standards (IFRS). He is currently training as a Full
-            Stack JavaScript Developer.
-            <br />
-            <a href="https://www.linkedin.com/in/rafaelvalerob/">
-              <i class="fa-brands fa-linkedin fa-3x my-3"></i>
-            </a>
-          </p>
-        </div>
+<header id="Hero-Section" class="hero-section text-light">
+  <div class="hero-overlay">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1 class="display-1 fw-bold my-4">
+          Rafael Valero <br />
+          Internal Audit Professional
+        </h1>
+        <p class="hero-description my-4">
+          Accountant from the Andrés Bello Catholic University, in
+          Caracas-Venezuela, with 13 years of experience in Consulting
+          companies. Professional with knowledge in risk matrices, risk
+          identification and controls, process walkthrough, Coso 2013
+          regulations, Sarbanes-Oxley law (SOX404) and international
+          accounting standards (IFRS). He is currently training as a Full
+          Stack JavaScript Developer.
+        </p>
       </div>
-      <div class="align-content-between"></div>
-    </header>
+    </div>
+  </div>
+</header>
     <!-- end header -->
-    <!-- start information -->
-    <section id="About-me" class="container text-center my-5">
-      <h2 class="display-3 fw-bold my-4">About me</h2>
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <i class="fa-solid fa-graduation-cap fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">Public <a></a>Accountant</h3>
-          <p class="my-3 text-start">
-            Class 2014 Andres Bello Catholic University in Caracas -
-            Caracas-Venezuela.
-          </p>
-        </div>
-        <div class="col-12 col-md-4">
-          <i class="fa-solid fa-circle-info fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">Information</h3>
-          <p class="my-3 list-unstyled text-start">
-            For the past 8 year I have been living in Chile, Im 36 Years old
-            recently married and proud owner/father of two black and tan
-            Labradoodles called Luna y Mateo
-          </p>
-        </div>
-        <div class="col-12 col-md-4">
-          <i class="fa-solid fa-school fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">Aditional Studies</h3>
-          <ul class="list-unstyled text-start">
-            <li>COSO ERM Internal Audit Framework</li>
-            <li>Leadership Tools in times of crisis</li>
-            <li>Sarbanes-Oxley for Internal Audit</li>
-            <li>Human Resources Audit, Excel and Scrum Master</li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-4">
-          <i class="fa-solid fa-building fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">Experience</h3>
-          <ul class="list-unstyled text-start">
-            <li>Freelancer Internal Audit Consultant - 1 year</li>
-            <li>Kpmg de Chile - 8 Years</li>
-            <li>Kpmg de Venezuela - 1 Year</li>
-            <li>Bancrecer. Caracas-Venezuela - 2 Years</li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-4">
-          <i class="fa-solid fa-gamepad fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">Amateur Gamer</h3>
-          <p class="my-3 text-start">
-            Everyone needs to have a hobby, and since I was a teenager video
-            games have been my escape route from reality and an activity that I
-            really enjoy. FIFA has been par excellence the game that I have put
-            the most hours into, followed quite closely by history games like
-            RDR2 and shooters like Call of Duty - Warzone
-          </p>
-        </div>
-        <div class="col-12 col-md-4">
-          <i class="fa-solid fa-computer fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">Developer</h3>
-          <p class="my-3 text-start">
-            After more than a decade as an auditor, starting an adventure in
-            coding has been one of the most challenging things that has happened
-            to me. Going back to studying things that I had never understood
-            before became an activity that was a little scary at first and that
-            I now enjoy every minute of it.
-          </p>
-        </div>
+    <!-- start About Me -->
+<section id="About-me" class="about-section">
+  <div class="container">
+    <div class="about-header text-center">
+      <span class="section-eyebrow">Core Profile</span>
+      <h2 class="section-title">About me</h2>
+      <p class="section-intro">
+        A professional overview of my background, experience, technical growth,
+        and personal interests.
+      </p>
+    </div>
+    <div class="row g-4">
+      <!-- about card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-graduation-cap about-icon"></i>
+            <h3>Accounting Foundation</h3>
+            <p>
+              Public Accountant with a strong foundation in financial processes,
+              controls, and business risk.
+            </p>
+          </div>
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#accountingDetails"
+            aria-expanded="false"
+            aria-controls="accountingDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+          <div class="collapse about-details" id="accountingDetails">
+            <ul>
+              <li>Public Accountant background.</li>
+              <li>Financial reporting and process understanding.</li>
+              <li>Experience connecting accounting knowledge with audit work.</li>
+            </ul>
+          </div>
+        </article>
       </div>
-    </section>
-    <!-- end personal information -->
+      <!-- about card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-building about-icon"></i>
+            <h3>Internal Audit Experience</h3>
+            <p>
+              Experience across internal audit, consulting, process reviews,
+              control testing, and risk-based engagements.
+            </p>
+          </div>
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#auditDetails"
+            aria-expanded="false"
+            aria-controls="auditDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+          <div class="collapse about-details" id="auditDetails">
+            <ul>
+              <li>Internal audit planning and execution.</li>
+              <li>Risk and control matrices.</li>
+              <li>Walkthroughs, evidence review, and control documentation.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <!-- about card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-shield-halved about-icon"></i>
+            <h3>SOX & Controls</h3>
+            <p>
+              Practical exposure to SOX 404, internal controls, control design,
+              operating effectiveness, and remediation follow-up.
+            </p>
+          </div>
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#soxDetails"
+            aria-expanded="false"
+            aria-controls="soxDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+          <div class="collapse about-details" id="soxDetails">
+            <ul>
+              <li>SOX 404 control testing.</li>
+              <li>Design and operating effectiveness reviews.</li>
+              <li>Control gaps, findings, and remediation tracking.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <!-- about card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-triangle-exclamation about-icon"></i>
+            <h3>Risk Management</h3>
+            <p>
+              Focused on identifying risks, understanding process exposure, and
+              connecting risks with practical controls.
+            </p>
+          </div>
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#riskDetails"
+            aria-expanded="false"
+            aria-controls="riskDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+          <div class="collapse about-details" id="riskDetails">
+            <ul>
+              <li>Risk identification and documentation.</li>
+              <li>Process walkthroughs and control mapping.</li>
+              <li>Risk-based thinking applied to audit execution.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <!-- about card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-code about-icon"></i>
+            <h3>Developer Journey</h3>
+            <p>
+              Expanding my professional toolkit by learning web development,
+              coding logic, and digital product creation.
+            </p>
+          </div>
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#developerDetails"
+            aria-expanded="false"
+            aria-controls="developerDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+          <div class="collapse about-details" id="developerDetails">
+            <ul>
+              <li>HTML, CSS, Bootstrap, and JavaScript learning path.</li>
+              <li>Personal website development.</li>
+              <li>Long-term goal: combine audit, risk, and technology.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <!-- about card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-gamepad about-icon"></i>
+            <h3>Personal Side</h3>
+            <p>
+              A more personal side of the profile: gaming, curiosity,
+              continuous learning, and creative interests.
+            </p>
+          </div>
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#personalDetails"
+            aria-expanded="false"
+            aria-controls="personalDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+          <div class="collapse about-details" id="personalDetails">
+            <ul>
+              <li>Gaming and storytelling interests.</li>
+              <li>Creative projects and personal brand development.</li>
+              <li>Curiosity for technology, design, and digital tools.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- end About Me -->
     <!--Start Footer-->
     <footer class="bg-black text-center">
       <img src="/assets/img/logo-transparente120x48.png" class="img-fluid" />

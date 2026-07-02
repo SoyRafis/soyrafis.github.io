@@ -1,0 +1,41 @@
+/* base styles */
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* navbar */
+.navbar-brand {
+  width: 240px;
+}
+
+.site-navbar {
+  background: rgba(3, 10, 18, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.85rem 0;
+}
+
+.site-logo {
+  width: 180px;
+}
+
+.site-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.78);
+  font-weight: 600;
+  margin-left: 1.25rem;
+  transition: color 0.2s ease;
+}
+
+.site-navbar .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-navbar .nav-link-cta {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  padding: 0.45rem 1rem;
+}
+
+.site-navbar .nav-link-cta:hover {
+  border-color: #ffffff;
+}

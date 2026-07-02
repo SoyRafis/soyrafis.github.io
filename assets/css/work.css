@@ -1,9 +1,4 @@
-body {
-  font-family: "Raleway", sans-serif;
-}
-
-/* Hero Section */
-
+/* hero */
 #Hero-Section {
   background-image: url("/assets/img/Codigo-Web.jpg");
   background-repeat: no-repeat;
@@ -11,15 +6,10 @@ body {
   background-position: left;
 }
 
-/* projects */
-
+/* project cards */
 #my-projects .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.navbar-brand {
-  width: 240px;
 }
