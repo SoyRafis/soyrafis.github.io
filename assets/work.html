@@ -31,9 +31,7 @@
     ></script>
   </head>
   <!-- head end -->
-  <!-- start body -->
-  <body>
-        <!-- start navbar -->
+   <!-- start navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark site-navbar fixed-top">
   <div class="container">
     <a class="navbar-brand site-logo" href="/index.html">
@@ -60,7 +58,7 @@
           <a class="nav-link" href="/index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./work.html">Work</a>
+          <a class="nav-link" href="/assets/work.html">Work</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Risk Library</a>
@@ -75,122 +73,226 @@
   </div>
 </nav>
     <!-- end navbar -->
-    <!-- start header -->
-    <header id="Hero-Section" class="text-light text-center py-5">
-      <div class="container">
-        <div class="ms-auto col-12 col-md-7">
-          <h1 class="display-1 fw-bold my-5">A Developer, The making off...</h1>
-        </div>
-      </div>
-    </header>
-    <!-- end header -->
-    <!-- start about me -->
-    <section id="skills" class="container text-center my-5">
-      <h2 class="display-3 fw-bold my-4">Skills</h2>
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <i class="fa-solid fa-table fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">Tables</h3>
-          <p class="my-3">
-            My journey through the programming world started in 2023, but it
-            felt like I was in 1980 making web pages with tables that resembled
-            an excel document. Being able to make my first website with the
-            methodology of the past served as motivation to learn as much as
-            possible the advantages that the world of programming has today.
-          </p>
-        </div>
-        <div class="col-12 col-md-4">
-          <i class="fa-brands fa-html5 fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">HTML & Bootstrap</h3>
-          <p class="my-3">
-            Being an apprentice programmer my knowledge of html 5 and bootstrap
-            is quite basic, but I have been able to create several types of web
-            pages using the various tools available and trying to modify them to
-            suit what I require.
-          </p>
-        </div>
-        <div class="col-12 col-md-4">
-          <i class="fa-brands fa-css3-alt fa-3x my-3"></i>
-          <h3 class="my-3 fw-bold">css</h3>
-          <p class="my-3">
-            Using CSS to "make your pages prettier" has been quite a challenge
-            as it requires a lot of creative skills to get the most out of it.
-            However, combining CSS and Bootstrap has helped me to move forward
-            in the implementation of more user friendly web pages.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- end about me -->
-    <!-- start my projects -->
-    <section id="my-projects" class="p-5 bg-info">
-      <h2 class="display-4 fw-bold text-center text-dark mb-3">
-        Please join me to see my evolution throughout the time
-      </h2>
-      <div class="row">
-        <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-            <div
-              class="image-top"
-              style="background-image: url(/assets/img/creando-portafolio.png)"
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Inicios en HTML</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Explicabo iure sint, perspiciatis distinctio molestias nihil
-                repudiandae neque rem adipisci repellendus libero illo quo
-                blanditiis, velit quasi ad, recusandae voluptates officia.
-              </p>
-              <a href="./proyectos/desafio1/index.html" target="_blank">
-                <button type="button" class="btn btn-outline-info">More</button>
-              </a>
-            </div>
+  <!-- start body -->
+  <!-- professional highlights -->
+<section id="Professional-Highlights" class="about-section">
+  <div class="container">
+    <div class="about-header text-center">
+      <span class="section-eyebrow">Professional Profile</span>
+      <h2 class="section-title">Professional Highlights</h2>
+      <p class="section-intro">
+        A snapshot of my audit background, controls experience, technical growth,
+        and professional development.
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- professional highlight card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-graduation-cap about-icon"></i>
+            <h3>Accounting Foundation</h3>
+            <p>
+              Public Accountant with a strong foundation in financial processes,
+              controls, and business risk.
+            </p>
           </div>
-        </div>
-        <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-            <div
-              class="image-top"
-              style="background-image: url(/assets/img/creando-landing.png)"
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Landing Page</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum,
-                consequatur quos error fuga excepturi quo. Laudantium optio
-                pariatur laboriosam modi, ea molestias?
-              </p>
-              <a href="./proyectos/desafio2/index.html" target="_blank">
-                <button type="button" class="btn btn-outline-info">More</button>
-              </a>
-            </div>
+
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#accountingDetails"
+            aria-expanded="false"
+            aria-controls="accountingDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+
+          <div class="collapse about-details" id="accountingDetails">
+            <ul>
+              <li>Public Accountant background.</li>
+              <li>Financial reporting and process understanding.</li>
+              <li>Experience connecting accounting knowledge with audit work.</li>
+            </ul>
           </div>
-        </div>
-        <div class="col-12 col-sm-4 py-2">
-          <div class="card">
-            <div
-              class="image-top"
-              style="background-image: url(/assets/img/creando-cards.png)"
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Cuppon Page</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Obcaecati facere quibusdam sint id laborum magni velit ducimus
-                corporis facilis qui architecto dolor, accusamus eveniet
-                exercitationem fugit. Quod autem neque ducimus.
-              </p>
-              <a href="./proyectos/desafio4/index.html" target="_blank">
-                <button type="button" class="btn btn-outline-info">More</button>
-              </a>
-            </div>
-          </div>
-        </div>
+        </article>
       </div>
-    </section>
-    <!-- end my projects -->
+
+      <!-- professional highlight card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-building about-icon"></i>
+            <h3>Internal Audit Experience</h3>
+            <p>
+              Experience across internal audit, consulting, process reviews,
+              control testing, and risk-based engagements.
+            </p>
+          </div>
+
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#auditDetails"
+            aria-expanded="false"
+            aria-controls="auditDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+
+          <div class="collapse about-details" id="auditDetails">
+            <ul>
+              <li>Internal audit planning and execution.</li>
+              <li>Risk and control matrices.</li>
+              <li>Walkthroughs, evidence review, and control documentation.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- professional highlight card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-shield-halved about-icon"></i>
+            <h3>SOX & Controls</h3>
+            <p>
+              Practical exposure to SOX 404, internal controls, control design,
+              operating effectiveness, and remediation follow-up.
+            </p>
+          </div>
+
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#soxDetails"
+            aria-expanded="false"
+            aria-controls="soxDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+
+          <div class="collapse about-details" id="soxDetails">
+            <ul>
+              <li>SOX 404 control testing.</li>
+              <li>Design and operating effectiveness reviews.</li>
+              <li>Control gaps, findings, and remediation tracking.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- professional highlight card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-triangle-exclamation about-icon"></i>
+            <h3>Risk Management</h3>
+            <p>
+              Focused on identifying risks, understanding process exposure, and
+              connecting risks with practical controls.
+            </p>
+          </div>
+
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#riskDetails"
+            aria-expanded="false"
+            aria-controls="riskDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+
+          <div class="collapse about-details" id="riskDetails">
+            <ul>
+              <li>Risk identification and documentation.</li>
+              <li>Process walkthroughs and control mapping.</li>
+              <li>Risk-based thinking applied to audit execution.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- professional highlight card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-code about-icon"></i>
+            <h3>Developer Journey</h3>
+            <p>
+              Expanding my professional toolkit by learning web development,
+              coding logic, and digital product creation.
+            </p>
+          </div>
+
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#developerDetails"
+            aria-expanded="false"
+            aria-controls="developerDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+
+          <div class="collapse about-details" id="developerDetails">
+            <ul>
+              <li>HTML, CSS, Bootstrap, and JavaScript learning path.</li>
+              <li>Personal website development.</li>
+              <li>Long-term goal: combine audit, risk, and technology.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- professional highlight card -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <article class="about-card">
+          <div class="about-card-main">
+            <i class="fa-solid fa-gamepad about-icon"></i>
+            <h3>Personal Side</h3>
+            <p>
+              A more personal side of the profile: gaming, curiosity,
+              continuous learning, and creative interests.
+            </p>
+          </div>
+
+          <button
+            class="about-toggle"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#personalDetails"
+            aria-expanded="false"
+            aria-controls="personalDetails"
+          >
+            View details
+            <i class="fa-solid fa-chevron-down about-toggle-icon"></i>
+          </button>
+
+          <div class="collapse about-details" id="personalDetails">
+            <ul>
+              <li>Gaming and storytelling interests.</li>
+              <li>Creative projects and personal brand development.</li>
+              <li>Curiosity for technology, design, and digital tools.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
     <!--     start footer -->
     <footer class="bg-black text-center text-light p-4">
       <p class="mb-0">@SoyRafis 2023. all rights reserved.</p>
