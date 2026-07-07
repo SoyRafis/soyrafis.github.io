@@ -12,6 +12,7 @@
   margin-top: 0;
 }
 
+/* hero overlay */
 .hero-overlay {
   min-height: 100vh;
   background: linear-gradient(
@@ -22,6 +23,7 @@
   );
 }
 
+/* hero content */
 .hero-content {
   min-height: 100vh;
   display: flex;
@@ -31,23 +33,123 @@
   padding-bottom: 4rem;
 }
 
+/* hero text */
 .hero-text {
   max-width: 680px;
   margin-left: auto;
   text-align: left;
 }
 
+.hero-eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #8fb3d9;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
 .hero-text h1 {
-  font-size: clamp(2.6rem, 6vw, 5rem);
-  line-height: 1.05;
   margin-bottom: 1.5rem;
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-weight: 900;
+  line-height: 0.95;
 }
 
 .hero-description {
-  max-width: 640px;
-  font-size: 1.05rem;
+  max-width: 620px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.1rem;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.86);
+}
+
+/* hero mobile image */
+.hero-mobile-image-wrapper {
+  display: none;
+}
+
+/* hero responsive tablet */
+@media (max-width: 992px) {
+  #Hero-Section {
+    background-image: none;
+  }
+
+  .hero-section {
+    min-height: auto;
+    background: #030a12;
+  }
+
+  .hero-overlay {
+    min-height: auto;
+    background: none;
+  }
+
+  .hero-content {
+    min-height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+  }
+
+  .hero-text {
+    max-width: 760px;
+    margin-left: 0;
+  }
+
+  .hero-mobile-image-wrapper {
+    display: block;
+    max-width: 620px;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+  }
+
+ /* hero responsive tablet */
+.hero-mobile-image {
+  display: block;
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  object-position: 5% center;
+  transform: scale(1.50);
+  transform-origin: 5% center;
+}
+}
+
+/* hero responsive phone */
+@media (max-width: 576px) {
+  .hero-content {
+    gap: 2.25rem;
+    padding-top: 6.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: clamp(2.8rem, 16vw, 4rem);
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .hero-mobile-image-wrapper {
+    max-width: 320px;
+    margin: 0 auto;
+    border-radius: 1.25rem;
+  }
+
+/* hero responsive phone */
+.hero-mobile-image {
+  height: 380px;
+  object-position: 10% center;
+  transform: scale(1.18);
+  transform-origin: 15% center;
+}
 }
 
 /* home shared section styles */
