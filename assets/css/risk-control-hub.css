@@ -1000,3 +1000,43 @@
     padding: 2rem;
   }
 }
+
+/* legal page */
+.legal-content-wrapper {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.legal-content-wrapper .process-section-header {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.legal-content-wrapper .process-resource-panel {
+  width: 100%;
+}
+
+.legal-content-wrapper .process-resource-panel p,
+.legal-content-wrapper .process-resource-panel li {
+  max-width: 760px;
+  line-height: 1.8;
+}
+
+.legal-content-wrapper .process-resource-panel ul {
+  max-width: 760px;
+  padding-left: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .legal-content-wrapper {
+    max-width: 100%;
+  }
+
+  .legal-content-wrapper .process-resource-panel p,
+  .legal-content-wrapper .process-resource-panel li,
+  .legal-content-wrapper .process-resource-panel ul {
+    max-width: 100%;
+  }
+}

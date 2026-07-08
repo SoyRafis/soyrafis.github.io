@@ -1,13 +1,13 @@
-MIT License
+MIT License - Code Only
 
-Copyright (c) 2023 SoyRafis
+Copyright (c) 2026 Rafael Valero / SoyRafis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of the source code of this website and associated software files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+Content, Branding, and Educational Materials
+
+Unless otherwise stated, the website content, educational materials, Risk &
+Control Hub content, process explanations, prompts, templates, checklists,
+downloadable materials, text, branding, logos, images, and other non-code
+materials are not licensed under the MIT License.
+
+All rights in those non-code materials are reserved by Rafael Valero / SoyRafis,
+unless a separate written license or permission is provided.
+
+You may not copy, reproduce, republish, sell, redistribute, or create derivative
+commercial products from substantial portions of the website content,
+educational materials, templates, checklists, prompts, branding, logos, images,
+or other non-code materials without prior permission.
