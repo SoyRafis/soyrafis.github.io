@@ -688,16 +688,20 @@
 <!-- how ai can help -->
 <section class="process-light-section process-ai-section">
   <div class="container">
-    <div class="process-section-header">
-      <span class="hub-eyebrow">How AI can help</span>
+    <div class="process-section-header process-ai-header">
+      <div>
+        <span class="hub-eyebrow">How AI can help</span>
 
-      <h2>Use AI to think through the process, not to replace judgment.</h2>
+        <h2>Use AI to think through the process, not to replace judgment.</h2>
+      </div>
 
-      <p>
-        AI can help you organize your questions, identify missing information,
-        and prepare for a more productive conversation with your team or
-        advisor.
-      </p>
+      <div>
+        <p>
+          AI can help you organize your questions, identify missing information,
+          and prepare for a more productive conversation with your team or
+          advisor.
+        </p>
+      </div>
     </div>
 
     <article class="process-resource-panel mb-4">
@@ -733,35 +737,53 @@
         details, or confidential information.
       </p>
 
-      <p>
-        Act as a business process coach. Help me think through a simple bank
-        reconciliation workflow for a small business.
-      </p>
+      <button
+        class="hub-button hub-button-dark"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#cashSafePromptCollapse"
+        aria-expanded="false"
+        aria-controls="cashSafePromptCollapse"
+      >
+        View safe prompt
+      </button>
 
-      <p>
-        Do not ask me to share bank account numbers, customer names, vendor
-        names, employee data, passwords, tax information, exact financial
-        amounts, or confidential information.
-      </p>
+      <div class="collapse" id="cashSafePromptCollapse">
+        <div class="process-prompt-box mt-4">
+          <p>
+            Act as a business process coach. Help me think through a simple bank
+            reconciliation workflow for a small business.
+          </p>
 
-      <p>
-        Do not create a template, checklist, spreadsheet, or downloadable file.
-      </p>
+          <p>
+            Do not ask me to share bank account numbers, customer names, vendor
+            names, employee data, passwords, tax information, exact financial
+            amounts, or confidential information.
+          </p>
 
-      <p>Use generic examples and placeholders only.</p>
+          <p>
+            Do not create a template, checklist, spreadsheet, or downloadable
+            file.
+          </p>
 
-      <p>Help me understand:</p>
+          <p>Use generic examples and placeholders only.</p>
 
-      <ol>
-        <li>What records should be compared</li>
-        <li>What types of transactions should be matched</li>
-        <li>What differences or exceptions should be reviewed</li>
-        <li>What evidence should be kept</li>
-        <li>What questions should be asked before approving the reconciliation</li>
-        <li>Who should prepare it and who should review it</li>
-      </ol>
+          <p>Help me understand:</p>
 
-      <p>Keep the explanation practical and in plain English.</p>
+          <ol>
+            <li>What records should be compared</li>
+            <li>What types of transactions should be matched</li>
+            <li>What differences or exceptions should be reviewed</li>
+            <li>What evidence should be kept</li>
+            <li>
+              What questions should be asked before approving the reconciliation
+            </li>
+            <li>Who should prepare it and who should review it</li>
+          </ol>
+
+          <p>Keep the explanation practical and in plain English.</p>
+        </div>
+      </div>
     </article>
 
     <article class="process-resource-panel process-ai-note">
