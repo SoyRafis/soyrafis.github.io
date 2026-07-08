@@ -481,3 +481,522 @@
     padding: 2rem;
   }
 }
+
+/* process page hero */
+.process-hero {
+  padding: 9rem 0 6rem;
+  background: #030a12;
+  color: #ffffff;
+}
+
+.process-hero-content {
+  max-width: 920px;
+}
+
+.process-back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.72);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.process-back-link:hover {
+  color: #ffffff;
+}
+
+.process-hero h1 {
+  margin-bottom: 1.5rem;
+  font-size: clamp(3.2rem, 7vw, 6rem);
+  font-weight: 900;
+  line-height: 0.95;
+}
+
+.process-hero p {
+  max-width: 760px;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.process-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+/* process overview */
+.process-overview-section {
+  padding: 6rem 0;
+  background: #ffffff;
+  color: #152033;
+}
+
+.process-overview-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.85fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.process-overview-copy .hub-eyebrow,
+.process-section-header .hub-eyebrow,
+.process-resource-panel .hub-eyebrow,
+.process-cta-content .hub-eyebrow {
+  color: #4b6b8a;
+}
+
+.process-overview-copy h2,
+.process-section-header h2,
+.process-resource-panel h2 {
+  margin-bottom: 1.25rem;
+  color: #152033;
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.process-overview-copy p,
+.process-section-header p,
+.process-resource-panel p {
+  max-width: 680px;
+  color: #5d6b7a;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.process-overview-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.process-overview-card {
+  padding: 2rem;
+  background: #f6f8fb;
+  border: 1px solid rgba(21, 32, 51, 0.08);
+  border-radius: 1.5rem;
+  box-shadow: 0 18px 45px rgba(21, 32, 51, 0.06);
+}
+
+.process-overview-card h3 {
+  margin-bottom: 1.25rem;
+  color: #152033;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.process-overview-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.process-overview-card li {
+  color: #5d6b7a;
+  line-height: 1.7;
+}
+
+.process-overview-card li + li {
+  margin-top: 0.65rem;
+}
+
+/* process shared sections */
+.process-light-section {
+  padding: 6rem 0;
+  background: #f6f8fb;
+  color: #152033;
+}
+
+.process-warning-section,
+.process-risks-section,
+.process-resources-section {
+  padding: 6rem 0;
+  background: #ffffff;
+  color: #152033;
+}
+
+.process-roadmap-section {
+  padding: 6rem 0;
+  background: #f6f8fb;
+  color: #152033;
+}
+
+.process-section-header {
+  max-width: 780px;
+  margin-bottom: 3.5rem;
+}
+
+/* process benefits */
+.process-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.process-benefit-card {
+  padding: 1.75rem;
+  background: #ffffff;
+  border: 1px solid rgba(21, 32, 51, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 18px 45px rgba(21, 32, 51, 0.06);
+}
+
+.process-benefit-card i {
+  margin-bottom: 1.25rem;
+  color: #243b53;
+  font-size: 1.8rem;
+}
+
+.process-benefit-card h3 {
+  margin-bottom: 0.75rem;
+  color: #152033;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.process-benefit-card p {
+  margin: 0;
+  color: #5d6b7a;
+  line-height: 1.7;
+}
+
+/* what can go wrong */
+.process-risk-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.process-risk-item {
+  padding: 1.5rem;
+  background: #f6f8fb;
+  border: 1px solid rgba(21, 32, 51, 0.08);
+  border-radius: 1.25rem;
+}
+
+.process-risk-item span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #4b6b8a;
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+
+.process-risk-item p {
+  margin: 0;
+  color: #152033;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+/* minimum controls */
+.process-controls-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.process-control-card {
+  padding: 1.75rem;
+  background: #ffffff;
+  border: 1px solid rgba(21, 32, 51, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 18px 45px rgba(21, 32, 51, 0.06);
+}
+
+.process-control-card h3 {
+  margin-bottom: 0.85rem;
+  color: #152033;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.process-control-card p {
+  margin: 0;
+  color: #5d6b7a;
+  line-height: 1.7;
+}
+
+/* simple risk and control cards */
+.process-risk-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.process-risk-card {
+  padding: 2rem;
+  background: #f6f8fb;
+  border: 1px solid rgba(21, 32, 51, 0.08);
+  border-radius: 1.5rem;
+  box-shadow: 0 18px 45px rgba(21, 32, 51, 0.06);
+}
+
+.process-risk-card > span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #4b6b8a;
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.process-risk-card h3 {
+  margin-bottom: 1.5rem;
+  color: #152033;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.process-risk-card-detail {
+  margin-bottom: 1.25rem;
+}
+
+.process-risk-card-detail strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #152033;
+}
+
+.process-risk-card-detail p {
+  margin: 0;
+  color: #5d6b7a;
+  line-height: 1.7;
+}
+
+.process-risk-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 1.5rem;
+}
+
+.process-risk-card-meta span {
+  display: inline-flex;
+  padding: 0.55rem 0.75rem;
+  background: #ffffff;
+  border: 1px solid rgba(21, 32, 51, 0.08);
+  border-radius: 999px;
+  color: #243b53;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+/* evidence examples */
+.process-evidence-grid {
+  display: grid;
+  grid-template-columns: 0.95fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.process-evidence-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+.process-evidence-list span,
+.process-concept-tags span {
+  display: inline-flex;
+  padding: 0.75rem 1rem;
+  background: #ffffff;
+  border: 1px solid rgba(21, 32, 51, 0.08);
+  border-radius: 999px;
+  color: #243b53;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+/* roadmap */
+.process-roadmap {
+  display: grid;
+  gap: 1rem;
+}
+
+.process-roadmap-step {
+  display: grid;
+  grid-template-columns: 120px 0.8fr 1.2fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid rgba(21, 32, 51, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 18px 45px rgba(21, 32, 51, 0.06);
+}
+
+.process-roadmap-step span {
+  color: #4b6b8a;
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.process-roadmap-step h3 {
+  margin: 0;
+  color: #152033;
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.process-roadmap-step p {
+  margin: 0;
+  color: #5d6b7a;
+  line-height: 1.7;
+}
+
+/* process resources */
+.process-resources-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.process-resource-panel {
+  padding: 2rem;
+  background: #f6f8fb;
+  border: 1px solid rgba(21, 32, 51, 0.08);
+  border-radius: 1.5rem;
+  box-shadow: 0 18px 45px rgba(21, 32, 51, 0.06);
+}
+
+.process-resource-panel ul {
+  margin: 1.5rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.process-resource-panel li {
+  color: #5d6b7a;
+  line-height: 1.7;
+}
+
+.process-resource-panel li + li {
+  margin-top: 0.5rem;
+}
+
+.process-concept-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* process cta */
+.process-cta-section {
+  padding: 6rem 0;
+  background: #ffffff;
+  color: #152033;
+}
+
+.process-cta-card {
+  display: grid;
+  grid-template-columns: 1.3fr auto;
+  gap: 3rem;
+  align-items: center;
+  padding: 3rem;
+  background: #030a12;
+  border-radius: 1.5rem;
+  color: #ffffff;
+  box-shadow: 0 24px 70px rgba(3, 10, 18, 0.18);
+}
+
+.process-cta-content h2 {
+  max-width: 760px;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.process-cta-content p {
+  max-width: 620px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.process-cta-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  min-width: 210px;
+}
+
+/* process page responsive tablet */
+@media (max-width: 992px) {
+  .process-overview-grid,
+  .process-evidence-grid,
+  .process-resources-grid,
+  .process-cta-card {
+    grid-template-columns: 1fr;
+  }
+
+  .process-benefits-grid,
+  .process-risk-list,
+  .process-controls-grid,
+  .process-risk-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-roadmap-step {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .process-cta-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* process page responsive phone */
+@media (max-width: 768px) {
+  .process-benefits-grid,
+  .process-risk-list,
+  .process-controls-grid,
+  .process-risk-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .process-hero,
+  .process-overview-section,
+  .process-light-section,
+  .process-warning-section,
+  .process-risks-section,
+  .process-roadmap-section,
+  .process-resources-section,
+  .process-cta-section {
+    padding: 4rem 0;
+  }
+
+  .process-hero {
+    padding-top: 8rem;
+  }
+
+  .process-hero-actions,
+  .process-cta-actions {
+    flex-direction: column;
+  }
+
+  .process-overview-card,
+  .process-benefit-card,
+  .process-risk-item,
+  .process-control-card,
+  .process-risk-card,
+  .process-roadmap-step,
+  .process-resource-panel {
+    padding: 1.5rem;
+  }
+
+  .process-cta-card {
+    padding: 2rem;
+  }
+}
