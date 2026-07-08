@@ -1040,3 +1040,96 @@
     max-width: 100%;
   }
 }
+
+/* AI process section */
+.process-ai-section .process-resource-panel {
+  width: 100%;
+  max-width: none;
+}
+
+.process-ai-section .process-resource-panel h2,
+.process-ai-section .process-resource-panel p,
+.process-ai-section .process-resource-panel ol,
+.process-ai-section .process-resource-panel li {
+  max-width: 100% !important;
+}
+
+.process-ai-section .process-resource-panel p {
+  width: 100%;
+}
+
+.process-ai-section .process-resource-panel ol {
+  width: 100%;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.process-ai-section .process-ai-note p {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+/* roadmap step layout refinement */
+.process-roadmap-step {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  column-gap: 1.5rem;
+  row-gap: 0.25rem;
+  align-items: stretch;
+}
+
+.process-roadmap-step span {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: #eef4ff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+
+.process-roadmap-step h3 {
+  grid-column: 2;
+  grid-row: 1;
+  margin-bottom: 0;
+  align-self: end;
+}
+
+.process-roadmap-step p {
+  grid-column: 2;
+  grid-row: 2;
+  max-width: none;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-self: start;
+}
+
+@media (max-width: 576px) {
+  .process-roadmap-step {
+    grid-template-columns: 1fr;
+    row-gap: 0.5rem;
+  }
+
+  .process-roadmap-step span,
+  .process-roadmap-step h3,
+  .process-roadmap-step p {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .process-roadmap-step span {
+    align-self: start;
+    justify-content: flex-start;
+    width: fit-content;
+    min-height: auto;
+    padding: 0.6rem 0.9rem;
+  }
+}
